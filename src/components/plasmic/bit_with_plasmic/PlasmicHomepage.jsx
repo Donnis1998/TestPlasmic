@@ -150,6 +150,18 @@ function PlasmicHomepage__RenderFunc(props) {
             ]}
             width={200}
           />
+
+          <div
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text
+            )}
+          >
+            {"Nuevo texto para ver si se guarda"}
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -157,11 +169,12 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h1", "gridControl", "freeBox", "bsButton"],
+  root: ["root", "h1", "gridControl", "freeBox", "bsButton", "text"],
   h1: ["h1"],
   gridControl: ["gridControl"],
   freeBox: ["freeBox", "bsButton"],
-  bsButton: ["bsButton"]
+  bsButton: ["bsButton"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -201,6 +214,7 @@ export const PlasmicHomepage = Object.assign(
     gridControl: makeNodeComponent("gridControl"),
     freeBox: makeNodeComponent("freeBox"),
     bsButton: makeNodeComponent("bsButton"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps,
