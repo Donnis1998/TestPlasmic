@@ -75,33 +75,6 @@
           "cssFilePath": "plasmic/bit_with_plasmic/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
-        },
-        {
-          "id": "krqvzhldj2",
-          "name": "Grids",
-          "type": "managed",
-          "projectId": "nMYeLQHQshrX7VNJy72yBY",
-          "renderModuleFilePath": "plasmic/bit_with_plasmic/PlasmicGrids.jsx",
-          "importSpec": {
-            "modulePath": "Grids.jsx"
-          },
-          "cssFilePath": "plasmic/bit_with_plasmic/PlasmicGrids.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "0rkD5Tw8V6V",
-          "name": "Switch",
-          "type": "managed",
-          "projectId": "nMYeLQHQshrX7VNJy72yBY",
-          "renderModuleFilePath": "plasmic/bit_with_plasmic/PlasmicSwitch.jsx",
-          "importSpec": {
-            "modulePath": "Switch.jsx"
-          },
-          "cssFilePath": "plasmic/bit_with_plasmic/PlasmicSwitch.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "switch"
         }
       ],
       "icons": [],
